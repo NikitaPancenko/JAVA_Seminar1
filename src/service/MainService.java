@@ -70,6 +70,7 @@ public class MainService {
 		System.out.println();
 		
 		//--------------------------string piemeri---------------------//
+		float avgGradeFromFunc = calculateAVGGrade(grades);
 		
 		String animal = "Cat";
 		String city = "Liepaja";
@@ -110,6 +111,11 @@ public class MainService {
 		int agei = Integer.parseInt("18");
 		System.out.println("vecums ir: " + agei);
 		
+		
+		public static float calculateAVGGrade(int [] grades) {
+			float result != null;
+			
+		}
 	}
 
 }
